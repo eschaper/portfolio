@@ -1,0 +1,8 @@
+Configuration setting is read from  Data/Config.txt
+if you want to change the setting you must manually change the value on the second line, unless the value on the second line is an unsupported number.
+
+Admin mode may not be fully completed, but when menu items are selected they should display how complete each item is.
+
+The 'evil looping' issue should be mostly resolved. Entering the product and state information while editing and adding orders is still a little evil.
+
+I tried to do as much user-proofing as possible, but I'm sure there are still areas unaccounted for. If you hit enter without typing anything enought times, you should always eventually return to the main menu.

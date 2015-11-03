@@ -1,0 +1,2 @@
+Configuration setting. 0 for test mode. 1 for production mode. 2 for admin mode.
+1
