@@ -1,0 +1,16 @@
+body {
+    background-image: url("../img/aa.gif");
+    height: 800px;
+}
+h3 {
+    color: red;
+}
+h1 {
+    color: red;
+}
+
+.centered {
+    padding: 15%;
+    text-align: center;
+    width: 55%;
+}

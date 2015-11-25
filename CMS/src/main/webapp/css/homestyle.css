@@ -1,0 +1,132 @@
+body {
+    //background-color:#D9D5C5;
+    background: url("../img/goata.png");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#grad1 {
+    height: 200px;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    //background: -webkit-linear-gradient(left, Gainsboro , Navy); /* For Safari 5.1 to 6.0 */
+    //background: -o-linear-gradient(right, Gainsboro, Navy); /* For Opera 11.1 to 12.0 */
+    //background: -moz-linear-gradient(right, Gainsboro, Navy); /* For Firefox 3.6 to 15 */
+    //background: linear-gradient(to left, Gainsboro, Navy); /* Standard syntax (must be last) */
+}
+h1.serif {
+    font-family:"lucida calligraphy",arial,'sans serif';
+    text-shadow: 2px 2px #888888;
+    font-weight: bold;
+    font-size: 72px;
+    color:white;
+    position: relative;
+    padding: 2px;
+    margin: 2px;
+    width: 600px;
+    margin-left: -55px;
+    margin-top: -20px;
+    display: block;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);   
+    -o-transform: rotate(-15deg);;
+}
+#static {
+    background-color: #9CB293;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+#tagContainer {
+    background-color: #9CB293;
+    //background-image: linear-gradient(#9CB293, white);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+li.tagList {
+    list-style-type: none;
+    margin: 10px;
+}
+a.tags:hover {
+    color: red;
+}
+a.tags {
+    color: black; //#b3ffd9;
+    text-decoration: none;
+    text-align: right;
+    font-size: 15px;
+    font-weight: normal;
+}
+#blogContent {
+    margin-top: 25px;
+}
+div.postContain {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;//#b3ffd9;
+    padding: 10px;
+    background-color: #B9C2AA;
+    background-image: linear-gradient(to left, #B9C2AA, #BBFFFF);//#9CB293);
+    border-radius: 8px;//
+    box-shadow: 5px 5px #888888;
+    -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    -box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+span.postDetails {
+    font-weight: normal;
+    font-size: 15px;
+    font-style: italic;
+}
+
+div.postBody {
+    font-size: 17px;
+    font-weight: normal;
+}
+p.tagToPost {
+    color: black;
+    margin-left: 10px;
+    display: inline;
+    font-style: italic;
+    font-weight: bold;
+}
+a {
+    cursor: pointer; 
+}
+/*
+#blogContent {
+    background-color: #9CB293;
+    border-radius: 20px;
+}
+*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.bot {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+}
+
+.word_wrap
+{
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}

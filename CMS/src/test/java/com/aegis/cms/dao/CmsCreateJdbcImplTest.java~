@@ -1,0 +1,146 @@
+<<<<<<< HEAD
+///*
+// * To change this license header, choose License Headers in Project Properties.
+// * To change this template file, choose Tools | Templates
+// * and open the template in the editor.
+// */
+//package com.aegis.cms.dao;
+//
+//import com.aegis.cms.model.Post;
+//import java.util.Date;
+//import org.junit.After;
+//import org.junit.AfterClass;
+//import org.junit.Before;
+//import org.junit.BeforeClass;
+//import org.junit.Test;
+//import org.springframework.context.ApplicationContext;
+//import org.springframework.context.support.ClassPathXmlApplicationContext;
+//import org.springframework.jdbc.core.JdbcTemplate;
+//
+///**
+// *
+// * @author apprentice
+// */
+//public class CmsCreateJdbcImplTest {
+//    
+//    private CmsCreateDao dao;
+//    
+//    public CmsCreateJdbcImplTest() {
+//    }
+//    
+//    @BeforeClass
+//    public static void setUpClass() {
+//    }
+//    
+//    @AfterClass
+//    public static void tearDownClass() {
+//    }
+//    
+//    @Before
+//    public void setUp() {
+//        ApplicationContext ctx
+//                = new ClassPathXmlApplicationContext("test-applicationContext.xml");
+//        dao = ctx.getBean("cmsCreate", CmsCreateDao.class);
+//        
+//        JdbcTemplate cleaner = (JdbcTemplate) ctx.getBean("jdbcTemplate");
+//        cleaner.execute("delete from post");
+//        
+//    }
+//    
+//    @After
+//    public void tearDown() {
+//    }
+//
+//    /**
+//     * Test of addPost method, of class CmsCreateJdbcImpl.
+//     */
+//    
+//    @Test
+//    public void testAddPost() {
+//        Date date = new Date();
+//        
+//        Post tPost = new Post();
+//        tPost.setBody("LOLOL");
+//        tPost.setExpiration(date);
+//        tPost.setPostDate(date);
+//        tPost.setTags("A Bay Bay");
+//        tPost.setTitle("Test Post");
+//        System.out.println(tPost);
+//        dao.addPost(tPost);
+//    }
+//    
+//}
+=======
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.aegis.cms.dao;
+
+import com.aegis.cms.model.Post;
+import java.util.Date;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+/**
+ *
+ * @author apprentice
+ */
+public class CmsCreateJdbcImplTest {
+    
+    private CmsCreateDao dao;
+    
+    public CmsCreateJdbcImplTest() {
+    }
+    
+    @BeforeClass
+    public static void setUpClass() {
+    }
+    
+    @AfterClass
+    public static void tearDownClass() {
+    }
+    
+    @Before
+    public void setUp() {
+        ApplicationContext ctx
+                = new ClassPathXmlApplicationContext("test-applicationContext.xml");
+        dao = ctx.getBean("cmsCreate", CmsCreateDao.class);
+        
+        JdbcTemplate cleaner = (JdbcTemplate) ctx.getBean("jdbcTemplate");
+        cleaner.execute("delete from post");
+        
+    }
+    
+    @After
+    public void tearDown() {
+    }
+
+    /**
+     * Test of addPost method, of class CmsCreateJdbcImpl.
+     */
+    /*
+    @Test
+    public void testAddPost() {
+        Date date = new Date();
+        
+        Post tPost = new Post();
+        tPost.setBody("LOLOL");
+        tPost.setExpiration(date);
+        tPost.setPostDate(date);
+        tPost.setTags("A Bay Bay");
+        tPost.setTitle("Test Post");
+        tPost.setIsPublished(true);
+        System.out.println(tPost);
+        dao.addPost(tPost);
+    }
+    */
+}
+>>>>>>> g
